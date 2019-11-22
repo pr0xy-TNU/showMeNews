@@ -6,7 +6,6 @@ import com.google.gson.JsonObject
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 import com.showmenews.utils.BASE_IMG_URL
-import com.showmenews.utils.parseApiError
 import kotlinx.android.parcel.Parcelize
 
 enum class ErrorType {
