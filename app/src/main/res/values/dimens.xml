@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="offset_small_2">2dp</dimen>
+    <dimen name="offset_small_4">4dp</dimen>
+    <dimen name="offset_small_8">8dp</dimen>
+    <dimen name="offset_normal_16">16dp</dimen>
+    <dimen name="offset_large_24">24dp</dimen>
+    <dimen name="offset_large_32">32dp</dimen>
+    <dimen name="offset_large_48">48dp</dimen>
+    <dimen name="offset_large_64">64dp</dimen>
+    <dimen name="offset_large_72">72dp</dimen>
+
+    <dimen name="card_corner_radius_normal">4dp</dimen>
+
+    <dimen name="view_size_64">64dp</dimen>
+</resources>

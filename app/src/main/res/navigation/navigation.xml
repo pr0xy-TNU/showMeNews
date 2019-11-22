@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/destinationCategoriesFragment">
+
+    <fragment
+        android:id="@+id/destinationArticleDetailsFragment"
+        android:name="com.showmenews.usecase.home.deteils.ArticleDetailsFragment"
+        android:label="Article details"
+        tools:layout="@layout/fragment_article_details">
+        <argument
+            android:name="articleId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/destinationArticlesFragment"
+        android:name="com.showmenews.usecase.home.acticles.ArticlesFragment"
+        android:label="Articles"
+        tools:layout="@layout/fragment_articles">
+
+        <action
+            android:id="@+id/action_destinationArticlesFragment_to_destinationArticleDetailsFragment"
+            app:destination="@id/destinationArticleDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/destinationCategoriesFragment"
+        android:name="com.showmenews.usecase.home.categories.CategoriesFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_categories">
+        <action
+            android:id="@+id/action_destinationCategoriesFragment_to_destinationArticlesFragment"
+            app:destination="@+id/destinationArticlesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+</navigation>

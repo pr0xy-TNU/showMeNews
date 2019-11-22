@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_primary</item>
+        <item name="colorButtonNormal">@color/color_primary</item>
+        <item name="colorControlHighlight">@color/color_control_highlight</item>
+    </style>
+
+    <style name="AppTheme.Card">
+        <item name="cardCornerRadius">@dimen/card_corner_radius_normal</item>
+    </style>
+
+    <style name="AppTheme.Card.Clickable">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.Card.NotClickable">
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar" parent="AppTheme">
+        <item name="android:indeterminateTint">@color/color_accent</item>
+        <item name="android:layout_height">@dimen/view_size_64</item>
+        <item name="android:layout_width">@dimen/view_size_64</item>
+    </style>
+
+
+</resources>

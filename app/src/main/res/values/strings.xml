@@ -1,0 +1,36 @@
+<resources>
+    <string name="appName">ShowMeNews</string>
+
+    <string name="http_status_401_message">Unauthorized request. Make sure api-key is set.</string>
+    <string name="http_status_429_message">Too many requests. You reached your per minute or per day rate limit.</string>
+    <string name="fragment_categories_title">Choose the categories</string>
+    <string name="fragment_articles_title">Articles</string>
+    <string name="title">Title</string>
+    <string name="fragment_article_snippet">Snippet</string>
+    <string name="no_articles">No Articles</string>
+    <string name="no_more_articles_message">No more Articles</string>
+
+    <string-array name="article_categories">
+        <item>Adventure Sports</item>
+        <item>Arts &amp; Leisure</item>
+        <item>Arts</item>
+        <item>Automobiles</item>
+        <item>Blogs</item>
+        <item>Books</item>
+        <item>Booming</item>
+        <item>Business Day</item>
+        <item>Business</item>
+        <item>Cars</item>
+        <item>Circuits</item>
+        <item>Classifieds</item>
+        <item>Connecticut</item>
+        <item>Crosswords &amp; Games</item>
+        <item>Culture</item>
+        <item>DealBook</item>
+        <item>Dining</item>
+        <item>Editorial</item>
+        <item>Energy</item>
+        <item>Entrepreneurs</item>
+    </string-array>
+
+</resources>
